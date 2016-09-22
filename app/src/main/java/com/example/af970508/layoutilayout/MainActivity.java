@@ -13,5 +13,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         TextView htmlCVText = (TextView)findViewById(R.id.textView);
         htmlCVText.setText(Html.fromHtml(getString(R.string.CV)));
+
+    }
+    public void nyMetod(){
+        int i =1+1;
     }
 }
